@@ -1,0 +1,35 @@
+{
+  "name": "solid-project",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "solid-start-node": "^0.3.8",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@solid-primitives/media": "^2.2.5",
+    "@solid-primitives/storage": "^2.1.1",
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "solid-js": "^1.8.3",
+    "solid-start": "^0.3.8",
+    "solid-theme-provider": "^0.8.2",
+    "solid-themes": "^0.1.0",
+    "solid-use": "^0.7.2",
+    "tailwind-merge": "^1.14.0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
